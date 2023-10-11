@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Contact_us</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="icon" href="consult_logo7.png" type="image/jpeg">
+
+
+    <link rel="stylesheet" type="text/css" href="displaycss.css">
+
+
+</head>
+<!-- place navbar here -->
+
+<body bgcolor="<i class="fa fa-bluetooth" aria-hidden="true"></i>">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="nav_logo 2.png" alt="in" width="120px" height="90px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html"
+                            style="text-decoration: none;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html" style="text-decoration: none;">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html" style="text-decoration: none;">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="leader.html" style="text-decoration: none;">Leadership</a>
+                    </li>
+
+
+                    <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="text-decoration: none;">
+                About Us
+                </a>
+                <ul class="dropdown-menu " style="margin: 10px;">
+                  <li><a class="dropdown-item" href="leader.html" style="font-size: large;">Leaderhip</a></li>
+                  
+                </ul>
+              </li> -->
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" style="text-decoration: none;">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- <div class="background">
+        <img src="billing-software.jpg" alt="Background_Image">
+    </div> -->
+    <div class="row  ">
+        <div class="col-12 col-md-4 card shadow border-1 rounded " style="margin: 20px auto;">
+            <div class="card-header ">
+
+                <!-- Pills navs -->
+                <ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link disabled  " id="tab-login" data-mdb-toggle="pill" href="candidate.html"
+                            role="tab" aria-controls="pills-login" aria-selected="true"
+                            style="text-decoration: none;font-size: 22px;">Candidate</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link " id="tab-register" data-mdb-toggle="pill" href="company.html" role="tab"
+                            aria-controls="pills-register" aria-selected="false"
+                            style="text-decoration: none;font-size: 22px;">Company</a>
+                    </li>
+                </ul>
+
+                <!-- Pills navs -->
+            </div>
+            <div class="card-body">
+
+                <!-- Pills content -->
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
+                        <!-- <form onsubmit="sendEmail(); reset(); return false;"> -->
+                        <form onsubmit="sendEmail(); reset(); return false;">
+                            <div class="form-outline mb-4">
+                                <label class="form-label" for="registerName">Name</label>
+                                <input type="text" id="registerName" class="form-control" required />
+
+                            </div>
+                                     
+
+                            <!-- Email input -->
+                            <div class="form-outline mb-4">
+                                <label class="form-label" for="loginName" required>Email-ID</label>
+                                <input type="email" class="form-control" required id="email_id"
+                                    aria-describedby="helpId" placeholder="Enter your email_id.">
+
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="mobile_no" class="form-label">Mobile no</label>
+                                <input type="tel" class="form-control" name="mobile_no" maxlength="10" minlength="10"
+                                    id="mobile_no" aria-describedby="helpId" placeholder="Enter your mobile no.">
+                            </div>
+
+                            <div>
+                                <label for="upload_documents" class="form-label">Upload Documents</label><br>
+                                <form action="/action_page.php">
+                                    <input type="file" id="myFile" name="filename"><br><br>
+                                    <!-- <input type="submit"> -->
+                                </form>
+
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="Requirement" class="form-label">How can we help you</label>
+                                <textarea class="form-control" name="Requirement" id="Requirement" rows="3"></textarea>
+                            </div>
+                            <!-- 2 column grid layout -->
+                            <!-- <div class="row mb-4">
+                                <div class="col-md-6 d-flex justify-content-center">
+                                    <div class="form-check mb-3 mb-md-0">
+                                        <input class="form-check-input" type="checkbox" value="" id="loginCheck"
+                                            checked />
+                                        <label class="form-check-label" for="loginCheck"> Remember me </label>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 d-flex justify-content-center">
+                                    <a href="#!">Forgot password?</a>
+                                </div>
+                            </div> -->
+
+                            <!-- Submit button -->
+                            <!-- <a href="index.html" class="btn  mb-4 " style="border: 2px solid gold; border-radius: 20px; font-size: 20px;">Submit
+                            </a> -->
+                            <button type="submit" onclick="sendEmail()" onclick="abc()"
+                                style="border: 2px solid rgb(151, 147, 147);background: fixed; border-radius: 20px; font-size: 24px;">Submit
+                            </button>
+
+
+
+
+                        </form>
+
+                        <!-- contact us footer -->
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="bg-light text-center text-lg-start mt-5">
+            <div class=" p-3 fw-bold" style="background-color: rgba(76, 145, 209, 0.2);">
+      
+               
+                Pune, Maharashtra, India.
+            </div>
+            <!-- Copyright -->
+            <!-- Use Text center -->
+            <div class=" p-3" style="background-color: rgba(126, 153, 187, 0.2); font-size: 12px;">
+                © 2023 Copyright:
+                <a class="text-dark" href="">Services Private Limited</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+            </script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+            integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+            </script>
+
+    </div>
+
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail() {
+
+            console.log("hiiiiiiiiiiiiiiiii")
+            Email.send({
+                Host: "smtp.elasticemail.com",
+                Username: "tanveermarne123@gmail.com",
+                Password: "",
+
+
+
+                To: '',
+                From: "",
+                Subject: "Regarding New form",
+                Body: "Name: " + document.getElementById("registerName").value
+                    + "<br> Email: " + document.getElementById("email_id").value
+                    + "<br> Phone No: " + document.getElementById("mobile_no").value
+                  
+
+
+
+
+
+            });
+            // .then(
+            //   message => alert(message)
+            // );
+        }
+        function abc() {
+          
+            console.log("hiii");
+        }
+    </script>
+</body>
+
+</html>
